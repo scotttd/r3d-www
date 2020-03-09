@@ -1,0 +1,598 @@
+﻿/* 
+##################################################################
+# Styles for General Page Layouts
+##################################################################
+*/
+
+
+html, body, button, input, select, textarea {
+	font-family: Verdana, "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif !important;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+figure {
+  float: right;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: 13px;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+img.scaled {
+  width: 100%;
+}
+
+body {
+	color: #000;
+	font-size: 13px;
+	line-height: 150%;
+	font-style: normal;
+	background-color: transparent;
+	min-width: 1060px;
+	margin: 0;
+}
+img {
+	border-style: none;
+	border-color: inherit;
+	border-width: 0;
+	float: left;
+}
+img.no-float {
+    float: none;
+}
+#outerbox {
+	width: 960px;
+	margin: 0 auto;
+	background-color: transparent;
+}
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 860px;
+	background-color: transparent;
+}
+#navigation {
+	width: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	clear: both;
+	text-align: center;
+	background-color: transparent;
+	overflow: hidden;
+	padding-top: 10px;
+}
+#masthead {
+	width: auto;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	text-align: left;
+	background-color: transparent;
+	padding-bottom: 10px;
+}
+#page_content {
+	width: auto;
+	margin-top: 0px;
+	background-color: white;
+}
+#column_0, #column_l, #column_r, .column_one, .column_half, #column_ls, #column_rs, .column_third, .column_2third, .column_r_third {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: white;
+	float: left;
+}
+#column_0, .column_one {
+	width: 840px;
+}
+#column_ls {
+	width:500px;
+}
+#column_rs {
+	width:320px;
+}
+
+#column_l, #column_r, .column_half {
+	width: 410px;
+}
+.column_2third {
+	width: 554px;
+}
+.column_third {
+	width: 266px;
+}
+
+.column_third figure{
+	width: 100%;
+}
+.column_r_third {
+	width: 246px;
+	margin-left: 30px;
+}
+
+#footer {
+	width: auto;
+	clear: both;
+	overflow: auto;
+	border-color: #CCCCCC;
+	padding-bottom: 15px;
+	border-top-style: ridge;
+	border-top-width: 1px;
+	background-color: transparent;
+}
+/* Styles for Masthead */
+#masthead img {
+	float: right;
+	margin: 0;
+	padding: 0;
+	height: 108px;
+	width: 75px;
+}
+#masthead p {
+	font-size: 13px;
+	text-align: left;
+	color: #6e6e6e;
+	margin: 10px 10px 10px 70px;
+}
+#masthead h1 {
+	font-size: 30px;
+	text-align: left;
+	color: #6e6e6e;
+	margin: 10px 10px 10px 70px;
+}
+#masthead a {
+	color: #6e6e6e;
+}
+#masthead a:hover {
+	color: #801010;
+	text-decoration: none;
+}
+/* 
+##################################################################
+# Styles for Navigation
+##################################################################
+*/
+#navigation ul {
+	list-style-type: none;
+	list-style-image: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: right;
+	width: auto;
+}
+#navigation a {
+	color: #4e4e4e;
+	text-decoration: none;
+	display: block;
+	padding: 0px;
+	padding-top: 20px;
+	padding-right: 15px;
+}
+#navigation a:hover {
+	color: red;
+	text-decoration: underline;
+}
+#navigation form {
+	color: #4e4e4e;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	padding-top: 17px;
+	padding-left: 15px;
+}
+/* Styles for Languages */
+.languages {
+	width: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	clear: both;
+	text-align: center;
+	background-color: transparent;
+	overflow: hidden;
+}
+.languages ul {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.languages li {
+	list-style-type: none;
+	list-style-image: none;
+	float: left;
+	width: auto;
+	padding: 5px;
+	margin-left: 15px;
+	padding-left: 0px;
+}
+.languages a {
+	text-decoration: none;
+	display: block;
+}
+.languages a:hover {
+	color: red;
+	text-decoration: underline;
+}
+.float_right {
+	float: right;
+}
+/* 
+##################################################################
+# Styles for Content 
+##################################################################
+*/
+/* Tweaked the styles to lighten up the site, Bob 8-Aug-14 */
+p {
+	padding: 0px;
+	margin: 5px;
+	margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-family:'Lucida Grande', Helvetica, Arial, Verdana, sans-serif;
+	font-weight: bold;
+	font-weight:normal;
+	margin: 5px;
+	margin-top: 15px;
+	padding: 0px;
+	color: #393939;
+	line-height: 1.1;
+}
+/* 
+##################################################################
+# Styles for Rhinoceros Logo
+##################################################################
+*/
+.ceros {
+	color: #990000;
+}
+
+h1 {
+	font-size: 2.25em;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 15px;
+}
+h4 {
+	font-size: 13px;
+}
+h5 {
+	font-size: 13px;
+}
+h6 {
+	font-size: 13px;
+}
+/* 
+##################################################################
+# Styles for Links 
+##################################################################
+*/
+a {
+	color: #901010;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+ul {
+	margin-top: 0px;
+	margin-left: 24px;
+	padding-left: 10px;
+	list-style-image: url('/en/images/dot2bw.png');
+}
+
+
+ol {
+	margin-top: 0px;
+	margin-left: 36px;
+	padding-left: 0px;
+	list-style:decimal;
+}
+
+td {
+	vertical-align: top;
+}
+/*  */
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}
+/* 
+##################################################################
+# Styles for Footer
+##################################################################
+*/
+#footer p {
+	font-size: 11px;
+	text-align: center;
+	color: #6e6e6e;
+	margin: 10px;
+	padding: 1px;
+}
+#footer a {
+	color: #803030;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: red;
+	text-decoration: underline;
+}
+#footer input {
+	color: #6e6e6e;
+	border : 1px solid #CCCCCC;
+	padding: 0px;
+	text-align: center;
+	margin-top: 0px;
+}
+/* 
+##################################################################
+# Styles for Footer details
+##################################################################
+*/
+#footer-detail {
+	display: none;
+	font-size: 11px;
+	color: #6e6e6e;
+	margin: 10px;
+	padding: 1px;
+	list-style-image: url('/en/images/dot2bw.png');
+}
+#footer-detail ul {
+	margin-top: 6px;
+	margin-left: 24px;
+	padding-left: 0px;
+}
+#footer-details td {
+	vertical-align: top;
+}
+/* 
+##################################################################
+# Style Search 
+##################################################################
+*/
+
+#sitesearch {
+    float:right;
+    margin:8px;
+    margin-top:38px;
+    margin-right:20px;
+}
+
+.searchBox {
+	background:white;
+	background-image: url('../images/searchicon.png');
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	cursor: pointer;
+	vertical-align:middle;
+}
+.searchBoxBeta {
+	background:white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	cursor: pointer;
+	vertical-align:middle;
+}
+
+#heading #cse-search-boxBeta {
+    padding:0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    bottom:16px;
+    z-index: 100;
+}
+
+
+#search-box {
+	margin-top:10px;
+}
+
+#searchtext {
+	height:19px;
+	padding:0px;
+	line-height:19.5px;
+}
+
+#cse-search-results iframe {
+	height : 1150px;
+}
+
+#search-result-title {
+	margin-left:32px !important;
+}
+
+#bcs-results-div h1 a, h2 a {
+	font-family: Verdana, "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif !important;
+color:  rgb(154,0,0) !important;
+margin-bottom: 2px;
+}
+
+.bcs-result h2 {
+	font-family: Verdana, "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif !important;
+margin: 0px !important;
+padding-bottom:0px !important;
+font-size: 18px !important;
+line-height: 24px !important;
+}
+
+.bcs-result {
+	font-family: Verdana, "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif !important;
+margin-top: 0px !important;
+padding-top: 0px !important;
+margin-left: 20px !important;
+}
+
+#support-search {
+	width: 80%;
+} 
+
+/* 
+##################################################################
+# Styles for Sales page 
+##################################################################
+*/
+.pricetable {
+	font-size: 13px;
+	border: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.pricelistheader, .dealerlistheader {
+	background-color: #dddddd;
+	vertical-align: bottom;
+	color: #393939;
+	font-size: 13px;
+	font-weight: bold;
+}
+#dealerlist {
+    float:left;
+    border: 1px solid #DDDDDD;
+    width: 330px;
+}
+
+.dealerlistheader {
+    padding: 2px 6px;
+}
+.dealerlistitem {
+    width:100%;
+    float: left;
+}
+
+.dealerlistitem img {
+    height:32px;
+    margin: 3px;
+    float:right;
+    border:0px;
+}
+
+.dealerlistitem .smaller {
+    font-size: smaller;
+    line-height: 1.2em;
+}
+
+.dealerlistitem .contact-info{
+    clear: both;
+    float: right;
+    margin-left: 1em;
+    font-size:75%;
+    line-height: 1.3em;
+}
+
+#dealerlist .even {
+	background-color: #F3F3F3;
+}
+.price1 {
+	background-color: white;
+	vertical-align: bottom;
+	font-size: 13px;
+}
+.price2 {
+	background-color: #F0F0F0;
+	vertical-align: bottom;
+	font-size: 13px;
+}
+.prices {
+	width: 40px;
+	text-align: right;
+}
+.nowrap {
+	white-space: nowrap;
+}
+/* 
+##################################################################
+# Styles for Newsfeed 
+##################################################################
+*/
+.rss_feed {
+	list-style-image: url('/en/images/dot2bw.png');
+}
+/*iOS */
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+/* Corner radius */
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-khtml-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-khtml-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-khtml-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-khtml-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+/* Shadows ????*/
+.ui-widget-shadow {
+	margin: -5px 0 0 -5px;
+	padding: 5px;
+	background: #000000 url(../images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x;
+	opacity: .20;
+	filter: Alpha(Opacity=20);
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+/*
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+.clearfix:before, .clearfix:after, .container:before, .container:after {
+	content: '.';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+	width: 0;
+	height: 0;
+}
+.clearfix:after, .container:after {
+	clear: both;
+}

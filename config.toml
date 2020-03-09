@@ -1,0 +1,42 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Rhino Documentation"
+theme = "ananke"
+sectionPagesMenu = "main"
+copyright = "Copyright © {year}"
+
+
+DefaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    title = "My blog"
+    weight = 1
+    languageName = "English"
+    contentDir = "content/en"
+    [languages.en.params]
+      linkedin = "https://linkedin.com/whoever"
+  [languages.es]
+    title = "Mon blogue"
+    weight = 2
+    languageName="Espanol"
+    contentDir = "content/es"
+    [languages.es.params]
+      linkedin = "https://linkedin.com/fr/whoever"
+      [languages.es.params.navigation]
+        help = "Aide"
+
+[params]
+  [params.navigation]
+    help = "Help"
+
+[menu]
+
+
+
+  [[menu.main]]
+    identifier = "content"
+    name = "Reference"
+    title = "Reference"
+    url = "https://docs.mcneel.com/rhino/7/help/en-us/index.htm"
+    weight = 110
